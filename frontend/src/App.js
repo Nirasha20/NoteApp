@@ -96,16 +96,19 @@ function App() {
 
 const styles = {
   container: {
-    maxWidth: '800px',
+    maxWidth: '900px',
     margin: '0 auto',
     padding: '20px'
   },
   error: {
-    backgroundColor: '#ffdddd',
-    color: '#cc0000',
-    padding: '10px',
-    marginBottom: '10px',
-    borderRadius: '5px'
+    backgroundColor: '#ff6b6b',
+    color: 'white',
+    padding: '15px 20px',
+    marginBottom: '20px',
+    borderRadius: '12px',
+    fontWeight: '500',
+    boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+    animation: 'slideUp 0.3s ease-out'
   }
 };
 
